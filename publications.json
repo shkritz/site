@@ -1,0 +1,130 @@
+[
+  {
+    "title": "Stress Testing Ethena: A Quantitative Look at Protocol Stability",
+    "date": "July 2025",
+    "role": "Supervisor",
+    "url": "https://cdn.sanity.io/files/zmh9mnff/production/af14f68eb1f5ff8e3c9f6c1993907226dc30ad3a.pdf",
+    "authors": ["Omer Goldberg", "Shai Kritz", "Barry Fried", "Flavio Benatti", "Murathan Bağdat"],
+    "summary": "Scenario-based stress testing of a synthetic dollar's hedging structure — how far funding, collateral and redemption conditions can move before stability stops holding."
+  },
+  {
+    "title": "Staking Penalties on Ethereum's Consensus Layer: Implications for wstETH and Other LSTs and LRTs",
+    "date": "April 2025",
+    "role": "Supervisor",
+    "url": "https://cdn.sanity.io/files/zmh9mnff/production/3b424b06ed20b43af98faa1423f49b842e82c5f4.pdf",
+    "authors": ["Omer Goldberg", "Shai Kritz", "Barry Fried", "Murathan Bağdat"],
+    "summary": "How penalties applied at the base layer of a network propagate into the derivative assets built on top of it, and what that means for anyone holding those assets as collateral."
+  },
+  {
+    "title": "Principal Token Risk Assessment Framework",
+    "date": "January 2025",
+    "role": "Supervisor",
+    "url": "https://cdn.sanity.io/files/zmh9mnff/production/588d24d3e6aa36da69840ab3ffe0531ec092d95f.pdf",
+    "authors": ["Omer Goldberg", "Shai Kritz", "Craig Le Riche", "Andre M. Rodrigues"],
+    "summary": "A reusable framework for assessing instruments whose risk profile changes across their lifecycle, built to be applied to new assets rather than to a single one."
+  },
+  {
+    "title": "Pendle v2 Mechanism Design Risk Assessment",
+    "date": "January 2025",
+    "role": "Supervisor",
+    "url": "https://cdn.sanity.io/files/zmh9mnff/production/485e27bd6e74f89fcba54ffb6121e037bfc47287.pdf",
+    "authors": ["Omer Goldberg", "Shai Kritz", "Craig Le Riche", "Andre M. Rodrigues"],
+    "summary": "A mechanism design review of a yield tokenisation protocol, examining how its instruments behave through the maturity cycle and where the design concentrates risk."
+  },
+  {
+    "title": "Liquity V2 Mechanism Design Review",
+    "date": "October 2024",
+    "role": "Original Draft",
+    "url": "https://cdn.sanity.io/files/zmh9mnff/production/ca6a4815e62b05f33fb3ec56c5a4c42d6b7ddbec.pdf",
+    "authors": ["Omer Goldberg", "Shai Kritz", "Barry Fried", "Yonatan Haimowitz"],
+    "summary": "Reviewing an incentive mechanism on its own terms: where a system that depends on rational participants stops behaving the way it was designed to."
+  },
+  {
+    "title": "Ostium Risk Report",
+    "date": "September 2024",
+    "role": "Review and Editing",
+    "url": "https://cdn.sanity.io/files/zmh9mnff/production/3e237092cd428dfc6ba349cddb64ca6d15a2cb07.pdf",
+    "authors": ["Omer Goldberg", "Shai Kritz", "Or Simko", "Andre Rodrigues"],
+    "summary": "A risk assessment of a venue offering exposure to real-world assets on-chain, including the specific complications of trading assets whose underlying markets close."
+  },
+  {
+    "title": "Avantis Finance Genesis Parameter Recommendations",
+    "date": "December 2023",
+    "role": "Original Draft",
+    "url": "https://cdn.sanity.io/files/zmh9mnff/production/a738a2ab1b44ddc53e03ddd8de2b4b140406c052.pdf",
+    "authors": ["Omer Goldberg", "Shai Kritz", "Franziska Wehrmann", "Barry Fried"],
+    "summary": "Deriving launch parameters — leverage limits, exposure caps, fee structure — from simulated conditions, balancing capital efficiency against solvency protection."
+  },
+  {
+    "title": "LST Market Risks on Ethena",
+    "date": "November 2023",
+    "role": "Review and Editing",
+    "url": "https://cdn.sanity.io/files/zmh9mnff/production/12f1c7b96267398b79298de0143ebfd428ee152a.pdf",
+    "authors": ["Omer Goldberg", "Shai Kritz", "Craig Le Riche"],
+    "summary": "An assessment of the market risks introduced when assets with their own liquidity constraints are accepted as collateral inside a protocol that hedges elsewhere."
+  },
+  {
+    "title": "USDV Risk and Economic Security Assessment",
+    "date": "November 2023",
+    "role": "Original Draft",
+    "url": "https://cdn.sanity.io/files/zmh9mnff/production/28203243d58b880de0e78aa574589e7d06a6abb9.pdf",
+    "authors": ["Omer Goldberg", "Shai Kritz"],
+    "summary": "An economic security assessment of a multi-issuer, cross-chain stablecoin, and the attack surface created by distributing issuance across parties."
+  },
+  {
+    "title": "Nexus Mutual V2 Mechanism Design Audit and Recommendations",
+    "date": "November 2023",
+    "role": "Original Draft",
+    "url": "https://cdn.sanity.io/files/zmh9mnff/production/88e98a39c4393b71b515ee57aa7ef4f9bc954c43.pdf",
+    "authors": ["Omer Goldberg", "Shai Kritz", "Franziska Wehrmann"],
+    "summary": "A design audit of a decentralised insurance protocol, aligning capital efficiency against the requirement that a mutual must actually be able to pay claims."
+  },
+  {
+    "title": "On Chain Stablecoin Liquidity Report",
+    "date": "October 2023",
+    "role": "Review and Editing",
+    "url": "https://cdn.sanity.io/files/zmh9mnff/production/483c5718a98f1a432ce0e09c05347520ad5d17b2.pdf",
+    "authors": ["Omer Goldberg", "Shai Kritz", "Craig Le Riche"],
+    "summary": "An empirical study of how much size the market can absorb before prices move materially, and what that implies for protocols assuming exit liquidity exists."
+  },
+  {
+    "title": "Perpetual Futures Liquidity Assessment Report",
+    "date": "October 2023",
+    "role": "Review and Editing",
+    "url": "https://cdn.sanity.io/files/zmh9mnff/production/b7a575e0125fa46510d16b5555ba065c9d7d3724.pdf",
+    "authors": ["Omer Goldberg", "Shai Kritz", "Craig Le Riche"],
+    "summary": "Measuring the capacity of derivative venues to absorb flow, and what the observed conditions imply for forced liquidation under stress."
+  },
+  {
+    "title": "Uniswap V3 LP Simulation Platform: A Case Study",
+    "date": "July 2023",
+    "role": "Original Draft",
+    "url": "https://cdn.sanity.io/files/zmh9mnff/production/283444b81169ec2fba7307ade5ab30f3be7d9f64.pdf",
+    "authors": ["Omer Goldberg", "Shai Kritz"],
+    "summary": "Simulating a strategy before capital is committed: modelling how range selection, fee income and divergence loss interact to determine realised returns."
+  },
+  {
+    "title": "GMX V2 Genesis Risk Framework and Methodology",
+    "date": "July 2023",
+    "role": "Original Draft",
+    "url": "https://cdn.sanity.io/files/zmh9mnff/production/5bad11c7f3a13da45a6f2a0eda85acb892975b2b.pdf",
+    "authors": ["Omer Goldberg", "Shai Kritz", "Yonatan Haimowitz"],
+    "summary": "Setting launch parameters for a system with no operating history — the reasoning that produces the numbers, not just the numbers."
+  },
+  {
+    "title": "dYdX V3 Risk Parameter Recommendations Platform: Methodology Exploration",
+    "date": "May 2023",
+    "role": "Original Draft",
+    "url": "https://cdn.sanity.io/files/zmh9mnff/production/fbc8bf2f1b81ca99d00145b167590e825ce9a717.pdf",
+    "authors": ["Omer Goldberg", "Shai Kritz"],
+    "summary": "Framing parameter setting as a repeatable analytical process rather than a judgement call: margin requirements, liquidation thresholds and position limits, each derived from observed behaviour."
+  },
+  {
+    "title": "Interest Rates Optimization Framework Exploration",
+    "date": "April 2023",
+    "role": "Original Draft",
+    "url": "https://cdn.sanity.io/files/zmh9mnff/production/0462ac7175ca99922a753ca3be2b9fcbb6a533a8.pdf",
+    "authors": ["Omer Goldberg", "Yonatan Haimowitz", "Shai Kritz"],
+    "summary": "How rate curves can be optimised against market conditions rather than set by convention — examining the relationship between utilisation, demand and return across curve shapes."
+  }
+]

@@ -1,0 +1,89 @@
+/* ---- tokens ---- */
+:root{
+  --bg:#fbfaf8; --fg:#1a1a18; --muted:#6b6b63; --rule:#e2ddd4;
+  --accent:#8a5a2b; --card:#ffffff;
+  --serif: "Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+  --sans: -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#131311; --fg:#eceae4; --muted:#9a968c; --rule:#2d2c28;
+    --accent:#c99a63; --card:#1a1a17;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#131311; --fg:#eceae4; --muted:#9a968c; --rule:#2d2c28;
+  --accent:#c99a63; --card:#1a1a17;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--bg); color:var(--fg);
+  font-family:var(--serif); font-size:18px; line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:720px; margin:0 auto; padding:0 16px}
+a{color:inherit; text-decoration:none; border-bottom:1px solid var(--rule)}
+a:hover{border-bottom-color:var(--accent); color:var(--accent)}
+
+/* ---- header ---- */
+header{padding:72px 0 40px; border-bottom:1px solid var(--rule)}
+h1{font-size:34px; line-height:1.15; margin:0 0 14px; letter-spacing:-.01em; font-weight:600}
+.positioning{font-size:20px; color:var(--muted); margin:0; max-width:36em}
+
+/* ---- sections ---- */
+section{padding:44px 0; border-bottom:1px solid var(--rule)}
+section:last-of-type{border-bottom:none}
+h2{
+  font-family:var(--sans); font-size:12px; font-weight:600; letter-spacing:.11em;
+  text-transform:uppercase; color:var(--muted); margin:0 0 22px;
+}
+p{margin:0 0 16px}
+p:last-child{margin-bottom:0}
+
+/* ---- publication list ---- */
+ol.pubs{list-style:none; margin:0; padding:0}
+ol.pubs li{padding:18px 0; border-bottom:1px solid var(--rule)}
+ol.pubs li:last-child{border-bottom:none}
+.pub-title{font-size:19px; font-weight:600; line-height:1.35; display:block; border:none}
+.pub-title:hover{color:var(--accent)}
+.pub-meta{
+  font-family:var(--sans); font-size:12.5px; color:var(--muted);
+  letter-spacing:.02em; margin-top:6px;
+}
+.pub-sum{font-size:16.5px; color:var(--muted); margin-top:8px; max-width:40em}
+
+/* ---- paper page ---- */
+.back{
+  font-family:var(--sans); font-size:12.5px; letter-spacing:.05em;
+  text-transform:uppercase; color:var(--muted); border:none;
+}
+.back:hover{color:var(--accent)}
+article h1{font-size:28px; margin:22px 0 18px}
+.meta-block{
+  font-family:var(--sans); font-size:14px; color:var(--muted);
+  border-left:2px solid var(--rule); padding-left:16px; margin:0 0 28px;
+}
+.meta-block div{margin-bottom:5px}
+.meta-block div:last-child{margin-bottom:0}
+.meta-block b{color:var(--fg); font-weight:600}
+.cta{
+  display:inline-block; font-family:var(--sans); font-size:14.5px; font-weight:600;
+  border:1px solid var(--rule); border-radius:3px; padding:11px 18px; margin-top:8px;
+  background:var(--card);
+}
+.cta:hover{border-color:var(--accent); color:var(--accent)}
+.hosted{font-family:var(--sans); font-size:12.5px; color:var(--muted); margin-top:12px}
+
+/* ---- footer ---- */
+footer{
+  padding:36px 0 64px; font-family:var(--sans); font-size:14px; color:var(--muted);
+}
+footer a{border-bottom:1px solid var(--rule)}
+
+@media (max-width:600px){
+  body{font-size:17px}
+  header{padding:48px 0 32px}
+  h1{font-size:28px}
+  .positioning{font-size:18px}
+  article h1{font-size:24px}
+}
